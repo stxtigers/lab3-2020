@@ -51,10 +51,6 @@ public class Player
   {
     return firstName+","+lastName+","+position+","+isActive+","+age+","+stuID;
   }
-  public String toString()
-  {
-    return getPlayerInfo();
-  }
 
   //Setter Methods
   public void setFirstName(String fn)
